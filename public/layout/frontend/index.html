@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Trang chủ</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+	<div class="top-menu container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="top-menu-left">
+						<ul class="top-menu-ul">
+							<li class="top-menu-item hot-line"><i class="fa fa-phone"></i> Hotline: 0912 333 444</li>
+						</ul>
+					</div>
+					<div class="top-menu-right">
+						<ul class="top-menu-ul">
+							<li class="top-menu-item">
+								<!-- <a class="top-item-link" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a> -->
+
+								<a class="top-item-link" href=""><i class="fa fa-shopping-cart"></i> Giỏ hàng</a>
+							</li>
+							<li class="top-menu-item">
+								<a class="top-item-link" data-toggle="modal" data-target="#loginModal"><i
+										class="fa fa-sign-in"></i> Đăng nhập</a>
+								<!-- <a class="top-item-link" href=""><i class="fa fa-sign-in"></i> Đăng nhập</a> -->
+							</li>
+							<li class="top-menu-item">
+								<a class="top-item-link" href=""><i class="fa fa-key"></i> Đăng ký</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="container">
+			<div class="banner text-center pt-5 pb-5">
+				Shop điện tử Online
+			</div>
+		</div>
+	</div>
+
+
+	<nav class="nav-bar navbar navbar-expand-md navbar-light bg-light">
+		<div class="nav-bar-container container">
+			<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+			<button class="navbar-toggler navbar-button" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="./index.html">Trang chủ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./intro.html">Giới thiệu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./cart.html">Giỏ hàng</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./news.html">Tin tức</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./contact.html">Liên hệ</a>
+					</li>
+
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Nhập tên sản phẩm" />
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+						Tìm kiến
+					</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<div class="main container">
+		<div class="row mt-4">
+			<!-- Sidebar  -->
+			<div class="col-md-3 col-12">
+				<div class="main-left mb-5">
+					<div class="main-left-title">
+						Danh mục
+					</div>
+					<!--  menu  -->
+					<div id="accordion" class="accordion-menu mb-4">
+						<!-- accordion ---------------  -->
+
+						<!-- ----------------------------- Menu item --------------------------  -->
+						<div class="card card2">
+							
+
+							<div class="category">
+								<ul class="category-list">
+									<li class="category-item">
+										<a class="category-link" href="">Apple</a>
+									</li>
+									<li class="category-item">
+										<a class="category-link" href="">Samsung</a>
+									</li>
+									<li class="category-item">
+										<a class="category-link" href="">Sony</a>
+									</li>
+									<li class="category-item">
+										<a class="category-link" href="">Oppo</a>
+									</li>
+								</ul>
+							</div>
+							<!-- <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+								data-parent="#accordion">
+								<div class="card-body card-body2">
+									<ul class="accordion-list">
+										<li class="accordion-item"><a class="accordion-link"
+												href="./category-mobile.html">Xem tất cả</a></li>
+										<li class="accordion-item"><a class="accordion-link"
+												href="./apple.html">Apple</a></li>
+										<li class="accordion-item"><a class="accordion-link"
+												href="./samsung.html">Samsung</a></li>
+										<li class="accordion-item"><a class="accordion-link" href="">Nokia</a></li>
+									</ul>
+								</div>
+							</div> -->
+						</div>
+						<!-- ----------------------------- End Menu item --------------------------  -->
+
+						<!-- ----------------------------- Menu item --------------------------  -->
+						<!-- <div class="card card2">
+							<div class="card-header card-header2" id="headingOne">
+								<h5 class="mb-0">
+									<button class="btn btn2 btn-link btn-link2" data-toggle="collapse"
+										data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+										<span class="menu-icon"><i class="fa fa-laptop"></i></span> &nbsp;Máy tính xách
+										tay<i class="fa fa-chevron-down float-right menu-down-icon"
+											style="color: #888;"></i>
+									</button>
+								</h5>
+							</div>
+
+							<div id="collapse2" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="card-body card-body2">
+									<ul class="accordion-list">
+										<li class="accordion-item"><a class="accordion-link"
+												href="./category-laptop.html">Xem tất cả</a></li>
+										<li class="accordion-item"><a class="accordion-link" href="">Dell</a></li>
+										<li class="accordion-item"><a class="accordion-link" href="">Lenovo -
+												Thinkpad</a></li>
+										<li class="accordion-item"><a class="accordion-link" href="">Acer</a></li>
+									</ul>
+								</div>
+							</div>
+						</div> -->
+						<!-- ----------------------------- End Menu item --------------------------  -->
+
+						<!-- <div class="card card2">
+							<div class="card-header card-header2" id="headingOne">
+								<h5 class="mb-0">
+									<button class="btn btn2 btn-link btn-link2" data-toggle="collapse"
+										data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+										<span class="menu-icon"><i class="fa fa-camera"></i></span> &nbsp;Máy ảnh<i
+											class="fa fa-chevron-down float-right menu-down-icon"
+											style="color: #888;"></i>
+									</button>
+								</h5>
+							</div>
+
+							<div id="collapse3" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="card-body card-body2">
+									<ul class="accordion-list">
+										<li class="accordion-item"><a class="accordion-link" href="">Canon</a></li>
+										<li class="accordion-item"><a class="accordion-link" href="">Nikon</a></li>
+										<li class="accordion-item"><a class="accordion-link" href="">Sony</a></li>
+									</ul>
+								</div>
+							</div>
+						</div> -->
+
+						<!-- <div class="card card2">
+							<div class="card-header card-header2" id="headingOne">
+								<h5 class="mb-0">
+									<button class="btn btn2 btn-link btn-link2" data-toggle="collapse"
+										data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+										<span class="menu-icon"><i class="fa fa-print"></i></span> &nbsp;Thiết bị văn
+										phòng<i class="fa fa-chevron-down float-right menu-down-icon"
+											style="color: #888;"></i>
+									</button>
+								</h5>
+							</div>
+
+							<div id="collapse4" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="card-body card-body2">
+									<ul class="accordion-list">
+										<li class="accordion-item"><a class="accordion-link" href="">Máy in</a></li>
+										<li class="accordion-item"><a class="accordion-link" href="">Máy tính để bàn</a>
+										</li>
+										<li class="accordion-item"><a class="accordion-link" href="">Máy photocopy</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div> -->
+
+						<!-- <div class="card card2">
+							<div class="card-header card-header2" id="headingOne">
+								<h5 class="mb-0">
+									<button class="btn btn2 btn-link btn-link2" data-toggle="collapse"
+										data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+										<span class="menu-icon"><i class="fa fa-headphones"></i></span> &nbsp;Phụ kiện<i
+											class="fa fa-chevron-down float-right menu-down-icon"
+											style="color: #888;"></i>
+									</button>
+								</h5>
+							</div>
+
+							<div id="collapse5" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="card-body card-body2">
+									<ul class="accordion-list">
+										<li class="accordion-item"><a class="accordion-link" href="">Tai nghe</a></li>
+										<li class="accordion-item"><a class="accordion-link" href="">Sạc điện thoại,
+												laptop</a></li>
+										<li class="accordion-item"><a class="accordion-link" href="">Ổ cứng di động</a>
+										</li>
+										<li class="accordion-item"><a class="accordion-link" href="">Chuột/ bàn phím</a>
+										</li>
+										<li class="accordion-item"><a class="accordion-link" href="">Ốp lưng điện
+												thoại</a></li>
+									</ul>
+								</div>
+							</div>
+						</div> -->
+
+						<!-- end accordion -----------------  -->
+					</div>
+					<!-- end menu  -->
+
+					<!-- news menu  -->
+					<div class="news-menu">
+						<div class="main-left-title">
+							Tin tức nổi bật
+						</div>
+					</div>
+					<!-- end news menu  -->
+
+				</div>
+			</div>
+			<!-- Sidebar  -->
+
+			<!-- Main product  -->
+			<div class="col-md-9 col-12">
+				<div class="main-right">
+					<div class="main-left-title text-center mb-4">
+						Điện thoại di động
+					</div>
+
+					<div class="right-box row">
+						<div class="col-md-4 col-12 mb-4">
+							<div class="product-box">
+								<a href="./product-detail.html"><img src="./img/iphone-mini-do-new-600x600-600x600.jpg"
+										alt="" class="img-fluid"></a>
+								<div class="product-title text-center"><a class="font-weight-bold"
+										href="./product-detail.html">iPhone mini Đỏ</a></div>
+								<div class="product-price text-center text-danger">23.500.000 VND</div>
+								<div class="text-center mt-1"><button class="btn btn-primary btn-buy">Mua ngay</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="product-box">
+								<a href=""><img src="./img/iphone-se-128gb-2020-do-600x600.jpg" alt=""
+										class="img-fluid"></a>
+								<div class="product-title text-center"><a class="font-weight-bold" href="">iPhone SE
+										128gb Đỏ</a></div>
+								<div class="product-price text-center text-danger">12.500.000 VND</div>
+								<div class="text-center mt-1"><button class="btn btn-primary btn-buy">Mua ngay</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="product-box">
+								<a href="./detail.html"><img src="./img/samsung-galaxy-z-fold-2-den-600x600.jpg" alt=""
+										class="img-fluid"></a>
+								<div class="product-title text-center"><a class="font-weight-bold" href="">Galaxy z fold
+										2 Đen</a></div>
+								<div class="product-price text-center text-danger">50.500.000 VND</div>
+								<div class="text-center mt-1"><button class="btn btn-primary btn-buy">Mua ngay</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="product-box">
+								<a href=""><img src="./img/samsung-galaxy-z-fold-2-vang-600x600-600x600.jpg" alt=""
+										class="img-fluid"></a>
+								<div class="product-title text-center"><a class="font-weight-bold title-link"
+										href="">Galaxy z fold 2 Vàng</a></div>
+								<div class="product-price text-center text-danger">49.000.000 VND</div>
+								<div class="text-center mt-1"><button class="btn btn-primary btn-buy">Mua ngay</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="product-box">
+								<a href=""><img src="./img/samsung-galaxy-s21-plus-062321-112345-400x400.jpg" alt=""
+										class="img-fluid"></a>
+								<div class="product-title text-center"><a class="font-weight-bold" href="">Galaxy s21
+										plus</a></div>
+								<div class="product-price text-center text-danger">23.500.000 VND</div>
+								<div class="text-center mt-1"><button class="btn btn-primary btn-buy">Mua ngay</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="product-box">
+								<a href=""><img src="./img/samsung-galaxy-s20-plus-xanh-600x600-600x600.jpg" alt=""
+										class="img-fluid"></a>
+								<div class="product-title text-center"><a class="font-weight-bold" href="">Galaxy s20
+										Xanh</a></div>
+								<div class="product-price text-center text-danger">12.500.000 VND</div>
+								<div class="text-center mt-1"><button class="btn btn-primary btn-buy">Mua ngay</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- end new product  -->
+
+					<!-- feature product  -->
+					<div class="main-left-title text-center mb-4">
+						Máy tính xách tay
+					</div>
+
+					<div class="right-box row">
+						<div class="col-md-4 col-12 mb-4">
+							<div class="product-box">
+								<a href=""><img src="./img/apple-macbook-air-2020-m1-mgn73saa-1-400x400.jpg" alt=""
+										class="img-fluid"></a>
+								<div class="product-title text-center"><a class="font-weight-bold" href="">Apple macbook
+										air 2020 M1</a></div>
+								<div class="product-price text-center text-danger">30.500.000 VND</div>
+								<div class="text-center mt-1"><button class="btn btn-primary btn-buy">Mua ngay</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="product-box">
+								<a href="./detail.html"><img
+										src="./img/dell-vostro-5581-i5-8265u-4gb-1tb-office365-win10-1-2-203138-400x400.jpg"
+										alt="" class="img-fluid"></a>
+								<div class="product-title text-center"><a class="font-weight-bold" href="">Dell vostro
+										5581 i5</a></div>
+								<div class="product-price text-center text-danger">25.500.000 VND</div>
+								<div class="text-center mt-1"><button class="btn btn-primary btn-buy">Mua ngay</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 mb-4">
+							<div class="product-box">
+								<a href="./detail.html"><img
+										src="./img/hp-15s-fq1111tu-i3-193r0pa-224012-224012-400x400.jpg" alt=""
+										class="img-fluid"></a>
+								<div class="product-title text-center"><a class="font-weight-bold" href="">HP 15s
+										FQ1111TU</a></div>
+								<div class="product-price text-center text-danger">22.500.000 VND</div>
+								<div class="text-center mt-1"><button class="btn btn-primary btn-buy">Mua ngay</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- end feature product  -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal  -->
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Đăng nhập</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="pl-4 pr-4">
+						<div class="form-group row">
+							<label for="inputUsername" class="col-sm-3 col-form-label">Tài khoản</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control" id="inputUsername" value="">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="inputPassword" class="col-sm-3 col-form-label">Mật khẩu</label>
+							<div class="col-sm-9">
+								<input type="password" class="form-control" id="inputPassword" placeholder="">
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer" style="justify-content: center;">
+					<button type="button" class="btn btn-primary">Đăng nhập</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal  -->
+	<div class="footer container-fluid text-center pt-5 pb-5 bg-light">
+		Footer - &copy 2020
+	</div>
+	<!-- --------------------------------- Javascript ------------------------------  -->
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="1.js"></script>
+</body>
+
+</html>

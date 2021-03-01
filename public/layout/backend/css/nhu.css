@@ -1,0 +1,16 @@
+.icon-down{
+    margin: 0 20px 0 0;
+    float: right;
+    padding: 3px 5px 2px;
+}
+.span12 h1{
+    font-size: 28px;
+    font-weight: normal;
+}
+.center{
+    align-items: center!important;
+    text-align: center!important;
+}
+.td-description{
+    max-width: 300px;
+}

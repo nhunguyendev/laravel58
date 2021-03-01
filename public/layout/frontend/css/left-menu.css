@@ -1,0 +1,118 @@
+.left-item{
+    line-height: 34px;
+    padding: 0 16px;
+    border-bottom: 1px dotted var(--dark-color);
+}
+.left-item:hover{
+    background-color: var(--dark-color);
+}
+.left-item.active{
+    background-color: var(--dark-color);
+}
+.left-link{
+    border: none;
+    padding-left: 0;    
+    line-height: 40px;
+    color: #666666;
+    display: block;
+}
+.left-ul{
+    border: 1px solid var(--dark-color);
+}
+.main-left-title{    
+    padding-bottom: 10px;
+    background: var(--black-color);
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    /* width: 200px; */
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+.card2{
+    border: unset;
+    border-radius: 0;
+}
+.card-header2{
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0!important;
+    transition: 0.3s;
+    border-bottom: none;
+    border-top: 1px dotted var(--dark-color);
+}
+.card-header2:hover{
+    background-color: var(--dark-color);
+}
+.card-body2{
+    padding: 0;
+}
+ul, li{
+    list-style: none;
+    margin: 0;
+}
+.btn-link2, .btn-link2:hover, .btn-link2:focus{
+    text-decoration: none;
+    color: unset;
+    width: 100%;
+}
+.btn-link2:focus{
+    background-color: var(--dark-color);
+}
+.btn2{
+    text-align: unset;
+}
+.accordion-item{
+    padding: 0 30px;
+    transition: 0.3s;
+}
+.accordion-item:hover{
+    background-color: var(--light-color);
+}
+.accordion-link{
+    color: var(--text-light);
+    display: inline-block;
+    width: 100%;
+}
+.accordion-link:hover{
+    color: var(--primary-color);
+}
+.accordion-menu{
+    border: 1px solid var(--dark-color);
+    box-sizing: border-box;
+}
+
+.menu-icon{
+    width: 16px;
+    display: inline-block;
+    text-align: center;
+}
+.menu-down-icon{
+    font-size: 12px;    
+    padding-top: 6px;
+}
+
+.category-item{
+    padding: 6px 30px;
+    transition: 0.3s;
+    border-top: 1px dotted var(--dark-color);
+}
+.category-item:hover{
+    background-color: var(--light-color);
+}
+
+.category-link{
+    color: var(--text-dark);
+    display: inline-block;
+    width: 100%;
+}

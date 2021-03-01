@@ -1,0 +1,14 @@
+.form-control, .btn, label, select, .input-group-text, .custom-select, .custom-select:focus
+{
+    border-radius: unset;
+    box-shadow: unset;
+}
+.btn:focus{
+    outline: none;
+}
+.form-control:focus, select {    
+    box-shadow: unset;
+}
+.bordered{
+    border: 1px solid var(--dark-color);
+}

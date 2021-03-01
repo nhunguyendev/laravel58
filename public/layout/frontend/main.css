@@ -1,0 +1,43 @@
+@import './css/color.css';
+@import './css/top-menu.css';
+@import './css/left-menu.css';
+@import './css/right-menu.css';
+@import './css/bs-custom.css';
+
+@import './css/admin.css';
+
+@font-face {
+    font-family: 'FS Pro text';
+    src: url('./fonts/SF-Pro-Text-Light.otf');
+}
+@font-face {
+    font-family: 'Noto-serif';
+    src: url('./fonts/noto-serif.regular.ttf');
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: 'FS Pro text';
+} 
+ul{
+    list-style: none;
+    margin: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: unset;
+}
+
+.cart-wrap{
+    overflow-x: scroll;
+}
+
+.pagi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
